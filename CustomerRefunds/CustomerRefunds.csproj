@@ -6,4 +6,21 @@
     <UseWindowsForms>true</UseWindowsForms>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Content Remove="C:\Users\rr24767\.nuget\packages\dotnetcore.npoi\1.2.3\contentFiles\any\netstandard2.0\NOTICE.TXT" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CsvHelper" Version="16.1.0" />
+    <PackageReference Include="DotNetCore.NPOI" Version="1.2.3" />
+    <PackageReference Include="System.ServiceModel.Duplex" Version="4.4.*" />
+    <PackageReference Include="System.ServiceModel.Http" Version="4.4.*" />
+    <PackageReference Include="System.ServiceModel.NetTcp" Version="4.4.*" />
+    <PackageReference Include="System.ServiceModel.Security" Version="4.4.*" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services" />
+  </ItemGroup>
+
 </Project>
